@@ -1,0 +1,27 @@
+<html> 
+<body> 
+    <h3>Parkinson's Disease Predictability</h3> 
+  
+<div> 
+  <form action="/predict" method="POST"> 
+  
+    <br>
+    MDVP:Fo(Hz) 
+    <input type="text" id="MDVP:Fo(Hz)" name="MDVP:Fo(Hz)">
+    <br> 
+    MDVP:Fhi(Hz)
+    <input type="text" id="MDVP:Fhi(Hz)" name="MDVP:Fhi(Hz)">
+    <br>
+    MDVP:Flo(Hz)
+    <input type="text" id="MDVP:Flo(Hz)" name="MDVP:Flo(Hz)">
+    <br>
+
+
+
+    <input type="submit" value="Submit">
+    <br> 
+    {{pred}}<br>
+  </form> 
+</div> 
+</body> 
+</html> 
